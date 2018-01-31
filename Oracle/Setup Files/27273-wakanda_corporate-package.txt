@@ -1,0 +1,19 @@
+{
+    "name": "wakanda_corporate",
+    "author": "Olivier Mobili (https://github.com/omobili/)",
+    "repository" : {
+    	"type": "git",
+    	"url": "https://github.com/omobili/wakanda_corporate"
+    },
+    "copyright": "GNU GPL v3, AGPL v3, Commercial",
+    "license" : "MIT",
+    "engines": {"wakanda" : ">=6"},
+    "studio": {
+	"label": "Wakanda Corporate",
+        "mobile": "false"
+    },	
+    "version": "1.0.0", 
+    "loadDependencies": [
+        {"id": "wakanda_corporate/wakanda_corporate.css", "path": "THEMES_CUSTOM"}
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "licenses-utils",
+    "version": "0.0.4",
+    "homepage": "https://github.com/SamyPesse/licenses-utils",
+    "description": "Utilities to detect licenses from project",
+    "main": "lib/index.js",
+    "dependencies": {
+        "lodash": "2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "1.18.2"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter list"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SamyPesse/licenses-utils.git"
+    },
+    "keywords": [
+        "licenses"
+    ],
+    "author": "Samy Pessé <samypesse@gmail.com>",
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/SamyPesse/licenses-utils/issues"
+    }
+}
